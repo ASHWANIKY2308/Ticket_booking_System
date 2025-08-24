@@ -78,9 +78,13 @@ REST APIs (Spring Boot)
 Frontend (React/Angular)
 
 🤝 Contributing
+
+
 Contributions are welcome!
 
 Fork the repo 🍴
+
+
 
 Create a branch (git checkout -b feature-name)
 
@@ -91,10 +95,12 @@ Push (git push origin feature-name)
 Open a Pull Request 🚀
 
 📜 License
+
 This project is licensed under the MIT License.
-See the LICENSE file for details.
+
 
 🙏 Acknowledgments
+
 Inspired by real-world ticket booking apps like BookMyShow & Eventbrite
 
 Thanks to open-source docs & community 🚀
