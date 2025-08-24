@@ -104,6 +104,3 @@ Add Payment Gateway Simulation for booking confirmation.
 
 
 
-Do you want me to also write a short summary for the GitHub repo description (the one-line tagline under the repo name)? Or should I also prepare screenshots and a demo GIF section for your README to make it visually attractive?
-
-ChatGPT can make mistakes. Check important info. See Cookie
