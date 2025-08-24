@@ -1,32 +1,56 @@
 # 🎟️ Ticket Booking System
 
-A simple **Java-based Ticket Booking System** that allows users to register, create events, and book tickets.  
-This project is built with **Gradle** for easy build and dependency management.
+[![Java](https://img.shields.io/badge/Java-17-blue?logo=java&logoColor=white)](https://www.oracle.com/java/)  
+[![Gradle](https://img.shields.io/badge/Gradle-Build-green?logo=gradle)](https://gradle.org/)  
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  
+![Repo Size](https://img.shields.io/github/repo-size/ASHWANIKY2308/Ticket_booking_System)  
+![Last Commit](https://img.shields.io/github/last-commit/ASHWANIKY2308/Ticket_booking_System)  
 
 ---
 
-## ✨ Features
-- User registration & login  
-- Event creation & management  
-- Ticket booking & cancellation  
-- Scalable project structure using Gradle  
+## ✨ Overview
+A **Java-based Ticket Booking System** that allows users to register, create events, and book tickets with ease.  
+The project is built with **Gradle** for dependency management and can be extended into a full-fledged event management system.
+
+---
+
+## 🚀 Features
+✅ User registration & login  
+✅ Event creation & management  
+✅ Ticket booking & cancellation  
+✅ Scalable project structure with Gradle  
+✅ Ready to integrate with database or REST API  
 
 ---
 
 ## 🛠️ Tech Stack
-- **Java**  
-- **Gradle** (build tool)  
+- **Java 17+**  
+- **Gradle** (Build Tool)  
+- (Optional) **Database Integration**  
 
 ---
 
-## 🚀 Getting Started
+## 📂 Project Structure
+Ticket_booking_System/
+│── app/ # Main Java source code
+│── gradle/ # Gradle wrapper files
+│── build.gradle # Build configuration
+│── settings.gradle # Gradle settings
 
-### Prerequisites
-- Install **Java JDK 8+**  
-- Install **Gradle** (or use the included `gradlew` wrapper)  
+yaml
+Copy
+Edit
 
-### Installation
-1. Clone the repository  
+---
+
+## ⚡ Getting Started
+
+### ✅ Prerequisites
+- Install **Java JDK 17+**  
+- Install **Gradle** OR use included `gradlew` wrapper  
+
+### ⚙️ Installation
+1. **Clone the repo**
    ```bash
    git clone https://github.com/ASHWANIKY2308/Ticket_booking_System.git
    cd Ticket_booking_System
@@ -36,48 +60,49 @@ bash
 Copy
 Edit
 ./gradlew build
-Run the project (example)
+Run the project
 
 bash
 Copy
 Edit
 ./gradlew run
-📂 Project Structure
-pgsql
-Copy
-Edit
-Ticket_booking_System/
-│── app/                 # Main Java source code
-│── gradle/              # Gradle wrapper files
-│── build.gradle         # Build configuration
-│── settings.gradle      # Settings file
 🖥️ Usage
-Run the application
+Start the application
 
 Register a user
 
-Create an event
+Create events
 
-Book tickets for the event
+Book & cancel tickets
 
-(You can extend it further by adding database or REST APIs)
+You can extend it by adding:
+
+Database (MySQL, MongoDB, etc.)
+
+REST APIs (Spring Boot)
+
+Frontend (React/Angular)
 
 🤝 Contributing
-Fork this repo
+Contributions are welcome!
+
+Fork the repo 🍴
 
 Create a branch (git checkout -b feature-name)
 
 Commit changes (git commit -m "Added new feature")
 
-Push and open a Pull Request
+Push (git push origin feature-name)
+
+Open a Pull Request 🚀
 
 📜 License
 This project is licensed under the MIT License.
+See the LICENSE file for details.
 
-⭐ If you like this project, don’t forget to star the repo!
+🙏 Acknowledgments
+Inspired by real-world ticket booking apps like BookMyShow & Eventbrite
 
+Thanks to open-source docs & community 🚀
 
-
-👉 Ye README **simple + professional + directly copy-paste ready** hai.  
-
-Do you want me to also **add badges (build, license, repo size, etc.)** at the top so it looks even more premium?
+⭐ If you find this project useful, give it a star on GitHub! ⭐
