@@ -1,106 +1,83 @@
-🎟 Ticket Booking System
+# 🎟️ Ticket Booking System
 
-A simple Java-based Ticket Booking System designed to manage reservations efficiently. This project demonstrates the use of Object-Oriented Programming (OOP) concepts such as classes, objects, constructors, methods, and basic file handling for data persistence.
+A simple **Java-based Ticket Booking System** that allows users to register, create events, and book tickets.  
+This project is built with **Gradle** for easy build and dependency management.
 
-✅ Features
+---
 
-User Registration & Login
+## ✨ Features
+- User registration & login  
+- Event creation & management  
+- Ticket booking & cancellation  
+- Scalable project structure using Gradle  
 
-Create new user accounts.
+---
 
-Login with credentials.
+## 🛠️ Tech Stack
+- **Java**  
+- **Gradle** (build tool)  
 
-Book Tickets
+---
 
-Select events/shows.
+## 🚀 Getting Started
 
-Specify seat category and number of tickets.
+### Prerequisites
+- Install **Java JDK 8+**  
+- Install **Gradle** (or use the included `gradlew` wrapper)  
 
-Get a booking confirmation.
+### Installation
+1. Clone the repository  
+   ```bash
+   git clone https://github.com/ASHWANIKY2308/Ticket_booking_System.git
+   cd Ticket_booking_System
+Build the project
 
-View Available Seats
+bash
+Copy
+Edit
+./gradlew build
+Run the project (example)
 
-Check real-time seat availability.
-
-Cancel Tickets
-
-Cancel previously booked tickets.
-
-Simple & Interactive Console UI
-
-Easy to navigate and use.
-
-🛠 Tech Stack
-
-Programming Language: Java (Core Java)
-
-Concepts Used:
-
-Object-Oriented Programming
-
-Collections (ArrayList, HashMap)
-
-Exception Handling
-
-File Handling (if implemented for storing data)
-
+bash
+Copy
+Edit
+./gradlew run
 📂 Project Structure
-Ticket_Booking_System/
-│
-├── src/
-│   ├── Main.java           # Entry point of the application
-│   ├── User.java           # Handles user details
-│   ├── Ticket.java         # Ticket class with attributes
-│   ├── BookingSystem.java  # Core logic for booking, canceling, and viewing tickets
-│
-├── README.md               # Project Documentation
-└── ...
+pgsql
+Copy
+Edit
+Ticket_booking_System/
+│── app/                 # Main Java source code
+│── gradle/              # Gradle wrapper files
+│── build.gradle         # Build configuration
+│── settings.gradle      # Settings file
+🖥️ Usage
+Run the application
 
-▶ How to Run the Project
+Register a user
 
-Clone the repository:
+Create an event
 
-git clone https://github.com/ASHWANIKY2308/Ticket_booking_System.git
+Book tickets for the event
 
+(You can extend it further by adding database or REST APIs)
 
-Open in an IDE:
+🤝 Contributing
+Fork this repo
 
-Use IntelliJ IDEA, Eclipse, or any Java IDE.
+Create a branch (git checkout -b feature-name)
 
-Compile the Java files:
+Commit changes (git commit -m "Added new feature")
 
-javac Main.java
+Push and open a Pull Request
 
+📜 License
+This project is licensed under the MIT License.
 
-Run the project:
-
-java Main
-
-🔍 How It Works
-
-The Main.java file serves as the entry point and displays the menu options.
-
-User.java handles user details like name, email, and login.
-
-Ticket.java stores ticket-related details (seat number, price, event name).
-
-BookingSystem.java contains the logic for:
-
-Booking a ticket
-
-Canceling a ticket
-
-Checking availability
-
-Data is stored either in memory (via ArrayList/HashMap) or file storage for persistence.
-
-💡 Future Enhancements
-
-Add GUI using JavaFX or Swing.
-
-Implement Database (MySQL) for storing user and ticket data.
-
-Add Payment Gateway Simulation for booking confirmation.
+⭐ If you like this project, don’t forget to star the repo!
 
 
 
+👉 Ye README **simple + professional + directly copy-paste ready** hai.  
+
+Do you want me to also **add badges (build, license, repo size, etc.)** at the top so it looks even more premium?
