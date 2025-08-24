@@ -37,11 +37,7 @@ Ticket_booking_System/
 │── build.gradle # Build configuration
 │── settings.gradle # Gradle settings
 
-yaml
-Copy
-Edit
 
----
 
 ## ⚡ Getting Started
 
