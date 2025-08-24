@@ -47,22 +47,20 @@ Ticket_booking_System/
 
 ### ⚙️ Installation
 1. **Clone the repo**
-   ```bash
    git clone https://github.com/ASHWANIKY2308/Ticket_booking_System.git
    cd Ticket_booking_System
+   
 Build the project
-
-bash
-Copy
-Edit
 ./gradlew build
-Run the project
 
-bash
-Copy
-Edit
+
+
+Run the project
 ./gradlew run
-🖥️ Usage
+
+
+
+🖥️ Usage 
 Start the application
 
 Register a user
