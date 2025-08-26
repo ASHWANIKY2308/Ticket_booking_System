@@ -1,16 +1,13 @@
 # 🎟️ Ticket Booking System
 
 [![Java](https://img.shields.io/badge/Java-17-blue?logo=java&logoColor=white)](https://www.oracle.com/java/)  
-[![Gradle](https://img.shields.io/badge/Gradle-Build-green?logo=gradle)](https://gradle.org/)  
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)  
-![Repo Size](https://img.shields.io/github/repo-size/ASHWANIKY2308/Ticket_booking_System)  
-![Last Commit](https://img.shields.io/github/last-commit/ASHWANIKY2308/Ticket_booking_System)  
+  
 
 ---
 
 ## ✨ Overview
 A **Java-based Ticket Booking System** that allows users to register, create events, and book tickets with ease.  
-The project is built with **Gradle** for dependency management and can be extended into a full-fledged event management system.
 
 ---
 
@@ -18,24 +15,21 @@ The project is built with **Gradle** for dependency management and can be extend
 ✅ User registration & login  
 ✅ Event creation & management  
 ✅ Ticket booking & cancellation  
-✅ Scalable project structure with Gradle  
 ✅ Ready to integrate with database or REST API  
 
 ---
 
-## 🛠️ Tech Stack
-- **Java 17+**  
-- **Gradle** (Build Tool)  
-- (Optional) **Database Integration**  
-
----
 
 ## 📂 Project Structure
 Ticket_booking_System/
 │── app/ # Main Java source code
+
 │── gradle/ # Gradle wrapper files
+
 │── build.gradle # Build configuration
+
 │── settings.gradle # Gradle settings
+
 
 
 
@@ -43,20 +37,11 @@ Ticket_booking_System/
 
 ### ✅ Prerequisites
 - Install **Java JDK 17+**  
-- Install **Gradle** OR use included `gradlew` wrapper  
 
 ### ⚙️ Installation
 1. **Clone the repo**
    git clone https://github.com/ASHWANIKY2308/Ticket_booking_System.git
    cd Ticket_booking_System
-   
-Build the project
-./gradlew build
-
-
-
-Run the project
-./gradlew run
 
 
 
@@ -69,7 +54,9 @@ Create events
 
 Book & cancel tickets
 
+
 You can extend it by adding:
+
 
 Database (MySQL, MongoDB, etc.)
 
